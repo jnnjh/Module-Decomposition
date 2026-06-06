@@ -8,7 +8,7 @@ const app = express();
 const server = http.createServer(app);
 const io = socketio(server, {
     cors: {
-        origin: "*",
+        origin: "http://fzyrtink4nh5ow546cdlu023.178.105.39.91.sslip.io",
         methods: ["GET", "POST"]
     }
 });
