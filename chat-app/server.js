@@ -1,4 +1,4 @@
-const path = require("path");
+
 const http = require("http");
 const express = require("express");
 const socketio = require("socket.io");
@@ -19,10 +19,8 @@ const messages = [];
 
 app.use(cors());
 app.use(express.json());
-app.use(express.static(path.join(__dirname, "static")));
-app.set('view engine', 'ejs');
 app.get("/", (req, res) => {
-    res.render("index");
+    res.render("World Chat backend is running");
 });
 
 io.on("connection", (socket) => {

@@ -1,4 +1,4 @@
-const socket = io();
+const socket = io("http://tlm83mpfgf848rp07dmrbcug.178.105.39.91.sslip.io");
 
 let username = localStorage.getItem("chatUsername");
 
