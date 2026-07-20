@@ -1,0 +1,13 @@
+{
+  "name": "off-the-shelf-middleware",
+  "version": "1.0.0",
+  "description": "Express app that replaces one custom middleware with an off-the-shelf npm package (morgan)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "morgan": "^1.10.0"
+  }
+}
